@@ -8,7 +8,6 @@ public class Destroyer : MonoBehaviour {
 		if (other.tag == "Player") 
 		{
 			Debug.Break();
-			//Application.Loadlevel("Deathscene");
 			return;
 		}
 
